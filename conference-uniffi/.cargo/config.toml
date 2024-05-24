@@ -1,0 +1,6 @@
+[alias]
+uniffi-bindgen = [
+    "run", "--features", "uniffi/cli", "--bin", "uniffi-bindgen",
+    "generate", "--library", "target/debug/libconference.dylib", 
+    "--language", "kotlin", "--out-dir", "out"
+    ]

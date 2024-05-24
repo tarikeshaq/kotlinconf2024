@@ -1,0 +1,14 @@
+[package]
+name = "conference-core"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = { version = "1.0.201", features = ["derive"] }
+thiserror = "1.0.60"
+
+[dev-dependencies]
+tokio = { version = "1.37.0", features = ["full"] }
+
